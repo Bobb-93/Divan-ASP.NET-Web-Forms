@@ -1,0 +1,184 @@
+﻿/*div{
+    display: inline-block;
+}
+
+.container{
+    display: block;
+}*/
+
+h1{
+    top:1.8em;/* do not change*/
+}
+
+h2{
+    position: absolute;
+    top: 2.5em;
+    left: 26em;
+    text-transform: uppercase;
+    font-family: LRT Oksana, sans-serif;
+}
+
+li a{
+    padding: 0;
+}
+
+.rectangle{
+    /* border-left: 0.5em solid #505050;
+    border-top: 0.1em solid #505050;
+    border-right: 0.5em solid #505050;
+    border-bottom: 0.1em solid #505050; */
+    background-color: #505050;
+}
+
+.image{
+    position: absolute;
+    height: 65px;
+    width: 65px;
+}
+
+.bottom-image{
+    top: 28.5em;
+}
+
+.arrow{
+    position: absolute;
+    display: block;
+    top: 14.5em;
+    z-index: 1000;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.left-arrow{
+    left: 20.5em;    
+    border-width: 1.5em 1.5em 1.5em 0;
+    border-color: transparent #b2b2b2 transparent transparent;
+}
+
+.right-arrow{
+    left: 68.2em;
+    border-width: 1.5em 0 1.5em 1.5em ;
+    border-color: transparent transparent transparent #b2b2b2;
+}
+
+.left-arrow::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: -1.5em;
+    left: 0.25em;
+    border-style: solid;
+    border-width: 1.5em 1.5em 1.5em 0;
+    border-color: transparent #CB171E transparent transparent;
+}
+
+.right-arrow::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: -1.5em;
+    left: -1.75em;
+    border-style: solid;
+    border-width: 1.5em 0 1.5em 1.5em;
+    border-color: transparent transparent transparent #CB171E;
+}
+
+.image img{
+    margin: 5px;
+    height: 55px;
+    width: 55px;
+}
+
+.image:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#white-washed-floors{
+    top: 18.5em;
+    left: 15em;
+}
+
+#living-room{
+    top: 23.5em;
+    left: 15em;
+}
+
+#scandinavian-design{
+    left: 15em;
+}
+
+#home-interior{
+    left: 21.5em;
+}
+
+#alpine{
+    left: 26.5em;
+}
+
+#summer-home-1{
+    left: 32em;
+}
+
+#summer-home-2{
+    left: 37.5em;
+}
+
+#dining-table{
+    left: 43em;
+}
+
+#desk{
+    left: 48.5em;
+}
+
+#rustic-kitchen{
+    left: 54em;
+}
+
+#greenhouse{
+    left: 59.5em;
+}
+
+#kitchen-idea{
+    left: 65em;
+}
+
+#garden{
+    left: 72em;
+}
+
+#bedroom{
+    top: 24em;
+    left: 72em;
+}
+
+#pool{
+    top: 18.5em;
+    left: 72em;
+}
+
+#focused-image{
+    display: inline-block;
+    position: absolute;
+    top: 5.5em;
+    left: 21.5em;
+    /* border-left: 5em solid #292929;
+    border-top: 0.5em solid #292929;
+    border-right: 5em solid #292929;
+    border-bottom: 0.5em solid #292929; */
+    height: 360px;
+    width: 755px;
+    background-color: #292929;
+}
+
+#image-header{
+    visibility:hidden;
+}
+
+#focused-image img{
+    height: 334px;
+    width: 592px;
+    margin: 10px 0px 10px 80px;
+    /* transition: all .5s ease-out; */
+}

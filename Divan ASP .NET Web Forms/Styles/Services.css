@@ -1,0 +1,129 @@
+﻿@font-face {
+    font-family: KabelBook;
+    src: url("../fonts/BakerBook.ttf");
+}
+
+/*body{
+    overflow: visible;
+}*/
+
+h2{
+    position: fixed;
+    top: 10.5em;
+    left: -10em;
+    /*font-family:KabelBook, sans-serif;*/
+}
+
+a{
+    text-decoration: none;    
+    color: #000;
+}
+
+/*div{
+    display: inline-block;   
+}*/
+
+main p{
+    position: fixed;
+    top: 9em;
+    left: 6em;
+    text-align: center;
+    font-family: KabelBook, sans-serif;
+}
+
+div li{
+    display: block;
+    text-align: left;
+    margin-right: initial;
+    /*margin-left: -2em;*/
+    /*text-transform: none;*/
+    /*font-family: KabelBook, sans-serif;*/
+}
+
+.background-image{
+    background-repeat: no-repeat;
+    /* width: 87%; */
+    /* height: 87%; */
+    position: fixed;
+    top: 0;
+    height: 651px;
+}
+
+#leftmost{
+    background-image: url("../images/services/Scandinavian-Design-1.png");
+    width: 431px;
+    left: 5em;
+}
+
+#center{
+    background-image: url("../images/services/Scandinavian-Design-2.png");
+    width: 317px;
+    height: 396px;
+    left: 34em;
+}
+
+#rightmost{
+    background-image: url("../images/services/Scandinavian-Design-3.png");
+    width: 416px;
+    left: 62em; 
+}
+
+.type-of-service{
+    position: fixed;
+    top: 30.5em;
+}
+
+#consulting-div{
+    left: 12em;
+}
+
+#consulting-heading{
+    left: 5.3em;
+}
+
+#furnishing-div{
+    left: 30.5em;
+}
+
+#furnishing-heading{
+    left: 13.5em;
+}
+
+#procurement-div{
+    left: 50em;
+}
+
+#procurement-heading{
+    left: 22.5em;
+}
+
+#interior-detailing-div{
+    left: 75em;
+}
+
+#interior-detailing-heading{
+    left: 34em;
+}
+
+#lists-of-services{
+    background-image: url("../images/services/Rectangle-5.png");
+    position: fixed;
+    top: 24em;
+    left: 8em;
+    width: 1200px;
+    height: 183px;
+    background-color: #fff;
+}
+
+#lists-of-services{
+    font-size: 0.85em;
+}
+
+#consulting-div li a, #furnishing-div li a, #procurement-div li a, #interior-detailing-div li a{
+    font-size: inherit;
+}
+
+#consulting-div h2:hover, #furnishing-div h2:hover, #procurement-div h2:hover, #interior-detailing-div h2:hover, #consulting-div li a:hover, #furnishing-div li a:hover, #procurement-div li a:hover, #interior-detailing-div li a:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}

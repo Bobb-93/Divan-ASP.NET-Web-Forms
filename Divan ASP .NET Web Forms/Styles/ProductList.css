@@ -1,0 +1,138 @@
+﻿body {
+    overflow: visible;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    visibility: hidden;
+}
+
+/*
+main{
+    position: absolute;
+    left: 13em;
+    top: 3em;
+}
+
+
+main>div{
+    display: none;
+    height: 15em;
+    width: 20em;
+    border: 1px solid black;
+    margin-right: 1em;
+}
+
+
+main>h1{
+    margin-left: 25%;
+    margin-top: 10%;
+
+}
+
+main div img{
+    height: 160px;
+    width: 160px;
+    padding-left: 10px;
+    float: left;
+}
+
+.productName{
+    text-align: center;
+}
+
+.price{
+    padding-top: 6em;
+}
+
+.addToCart{
+    margin-top: 1em;
+    margin-left: 0.5em;
+    color: #fff;
+    background-color: #CB171E;
+}
+
+.price{
+    margin-left: 11em;
+}
+
+.description{
+    margin-top: .5em;
+    margin-left: .7em;
+}
+
+.addToCart:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#productsLists{
+    position: fixed;
+    top: 9em;
+    left: 1.9em;
+    width: 11em;  
+    height: 22em;
+    z-index: 1000;
+}
+
+#productsLists li{
+    text-align: left;
+    padding-left: 1em;
+}
+
+#livingRoom{
+    padding-top: 2em;
+}
+
+#diningRoom{
+    padding-top: .5em;
+}
+
+#bedroom{
+    padding-top: .5em;
+}
+
+#office{
+    padding-top: .5em;
+}
+
+#livingRoom ul, #diningRoom ul, #bedroom ul, #office ul{
+    position: absolute;
+    left: 8.5em;
+    top: 0em;
+    font-family: Georgia,'Times New Roman',serif;  
+}
+
+#diningRoom ul{
+    top: 2.5em;
+}
+
+#bedroom ul{
+    top: 5.5em;
+}
+
+#office ul{
+    top: 7.5em;
+}
+
+#productsLists>ul>li{
+    width: 25em;
+}
+
+#livingRoom:hover>ul, #diningRoom:hover>ul, #bedroom:hover>ul, #office:hover>ul{
+    display: block;
+}
+
+#productsLists>ul>li>ul>li:hover{
+    background-color: #D5454B;
+    color: #512727;
+}
+
+#leftDiv{
+    margin-left: 5em;
+}
+
+*/
